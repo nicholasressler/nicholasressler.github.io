@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nicholas Ressler" />
+    <meta name="description" content="This page contains all of my html journey." />
+    <title>My First Web Page</title>
+    <link rel="icon" href="icons8-html-5-48.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>My Goals for the Year</h1>
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning Html</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr />
+    <main>
+        <article id="html">
+            <h2>I'm ready to learn HTML</h2>
+            <p>This is my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML 5" width="300"
+                    height="300" />
+                <figure>
+                    <figcaption>
+                        An Example of HTML Code
+                        <p>
+                            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+            <section>
+
+                <h3>My daily schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li>...I learn about web dev.</li>
+                    <li>...I plan out my schedule.</li>
+                    <li>
+                        ...I use resources from
+                        <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a> </abbr>.
+                    </li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark> number </mark> hours I code a day</summary>
+                        <p>I start at <time datetime="10:00">10 pm</time> and I code for <time datetime="PT1H">1
+                                hour</time> each night</p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Morning</th>
+                        <td>
+                            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                        </td>
+                        <td>Write Code</td>
+                    </tr>
+                    <tr>
+                        <th>Break</th>
+                        <td>
+                            <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                        </td>
+                        <td>Eat Lunch</td>
+                    </tr>
+                    <tr>
+                        <th>Afternoon</th>
+                        <td>
+                            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                        </td>
+                        <td>Study for other courses</td>
+                    </tr>
+                    <tr>
+                        <th>Evening</th>
+                        <td rowspan="2">All Other Times</td>
+                        <td>Free Time</td>
+                    </tr>
+                    <tr>
+                        <th>Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">And that's what I do every day, 5 days a week.</td>
+                    </tr>
+                </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <hr />
+        <article id="vacation">
+            <h2>I Am Also Planning A Vacation</h2>
+            <p>
+                I've been working hard and i <strong>really need a getaway</strong>.
+            </p>
+            <p>
+                I live in <abbr title="Pennsylvania">PA</abbr> and I want to visit a
+                beach.
+                </p>
+
+            <section>
+                <h3>Places I'd Like To Visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about Florida</p>
+                        <figure>
+                            <img src="img/caribbean.jpg" alt="Florida Beach" title="I want to visit Florida" width="400"
+                                height="225" loading="lazy" />
+                            <figcaption>Florida Beach Getaway</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <address>Florida Keys</address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="Florida Keys Vacation" title="It's 5 o'clock somewhere"
+                                loading="lazy" width="400" height="267" />
+                            <figcaption>A Florida Vacation Image</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <!-- TODO: Add more places-->
+            <section>
+                <h3>Places I'd Like To Avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>cold</strong>.</dd>
+
+                    <dt>South Pole</dt>
+                    <dd>This is also cold.</dd>
+
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+    <hr />
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy;
+            <a href="about.html">Nicholas Ressler</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
